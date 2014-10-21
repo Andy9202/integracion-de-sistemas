@@ -52,8 +52,8 @@ class calculadoraTest extends PHPUnit_Framework_TestCase
     public function testSuma()
     {
        
-        $result= $this->calculadora->suma(1,2);
-        $this->assertEquals(3, $result);
+        $result= $this->calculadora->suma(2,2);
+        $this->assertEquals(4, $result);
     }
 
     /**
