@@ -61,8 +61,8 @@ class calculadoraTest extends PHPUnit_Framework_TestCase
      */
     public function testMultiplicacion()
     {
-        $result= $this->calculadora->multiplicacion(1,3);
-        $this->assertEquals(3, $result);
+        $result= $this->calculadora->multiplicacion(2,4);
+        $this->assertEquals(6, $result);
     }
 
     /**
